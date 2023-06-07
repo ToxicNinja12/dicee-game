@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dicee Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header class="container">
+    <!-- Placeholder to main the structure of the website during the split second while refreshing -->
+    <h1 class="heading heading-placeholder">Refresh!</h1>
+    <h1 class="heading heading-player1 vanish">🚩Player1 Wins!</h1>
+    <h1 class="heading heading-player2 vanish">Player2 Wins!🚩</h1>
+    <h1 class="heading heading-draw vanish">🏁Draw!🏁</h1>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <p class="card-header">Player 1</p>
+      <div class="dicee-container player1">
+        <!-- The dots have been placed like how they would be kept in a real die
+        | 4 |   | 3 |
+        | 6 | 1 | 7 |
+        | 2 |   | 5 | -->
+        <div class="dicee-dot dot1"></div>
+        <div class="dicee-dot dot2"></div>
+        <div class="dicee-dot dot3"></div>
+        <div class="dicee-dot dot4"></div>
+        <div class="dicee-dot dot5"></div>
+        <div class="dicee-dot dot6"></div>
+        <div class="dicee-dot dot7"></div>
+      </div>
+    </div>
+    <div class="card">
+      <p class="card-header">Player 2</p>
+      <div class="dicee-container player2">
+        <div class="dicee-dot dot1"></div>
+        <div class="dicee-dot dot2"></div>
+        <div class="dicee-dot dot3"></div>
+        <div class="dicee-dot dot4"></div>
+        <div class="dicee-dot dot5"></div>
+        <div class="dicee-dot dot6"></div>
+        <div class="dicee-dot dot7"></div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container">
+    <p><a href="https://github.com/toxicninja12">@toxicninja12</a></p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
